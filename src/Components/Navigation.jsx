@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Navigation() {
     const [open, setOpen] = useState(false)
   return (
-    <div className={`bg-white text-sm flex justify-between items-center sticky top-0 w-screen md:justify-center md:relative md:pt-14 p-5`}>
+    <div className={`bg-white text-sm flex justify-between items-center sticky top-0 w-screen md:justify-center md:absolute z-30 md:pt-14 p-5`}>
          <span className={` ${open ? 'hidden' : 'flex'} md:hidden text-nowrap `} >
             Philippin, Bicol Camarines Sur
         </span>

@@ -28,7 +28,7 @@ export default function Projects() {
           <div className='flex  flex-col items-center md:pt-32 pt-14 gap-10 md:gap-24'>
             {project.map((proj, index)=> <ProjectCard 
                                     title={proj.title} 
-                                    type ={proj.title}
+                                    type ={proj.type}
                                     image ={proj.image}
                                     github = {proj.github}
                                     preview = {proj.github}

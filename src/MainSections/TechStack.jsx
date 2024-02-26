@@ -22,7 +22,7 @@ export default function TechStack() {
         css,
     ]
   return (
-    <div className='w-screen text-center pt-3 md:pt-11'>
+    <div className='w-screen  text-center pt-3 md:pt-19'>
         <p className='p-6'>TECHNOLOGIES</p>
         <div className='flex w-screen px-10 md:space-x-8 md:justify-center justify-evenly '>
             {techs.map((tech, index) => {

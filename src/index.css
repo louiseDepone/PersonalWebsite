@@ -27,3 +27,28 @@ body{
     -moz-box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
     box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
 }
+.pp{
+    background-color:black;
+    mix-blend-mode: difference;
+}
+.contactForm  > input{
+    /* font-size:large; */
+    height: 3rem;
+    border-bottom: #323235 solid 1px;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    background-color: transparent;
+    width: 100%;
+}
+.contactForm  > label{
+    width: 100%;
+}
+input:focus-visible{
+    outline: none;
+}
+
+
+.form{
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(145,145,145,1) 0%, rgba(159,159,159,1) 0%, rgba(162,162,162,1) 0%, rgba(190,190,190,1) 15%, rgba(226,226,226,1) 42%, rgba(255,255,255,1) 64%);
+}
