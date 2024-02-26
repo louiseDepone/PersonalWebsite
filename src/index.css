@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: Poppins;
+    color: #323235
+}
+.text-stroke {
+    -webkit-text-stroke: 2px #323235;
+    letter-spacing: 3px; /* For Chrome, Safari, etc. */
+}
+.text-strokemd {
+    -webkit-text-stroke: 5px red;
+    letter-spacing: 3px; /* For Chrome, Safari, etc. */
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.trasn{
+    transform: scale(-1);
+}
+
+.projimg{
+    -webkit-box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
+    -moz-box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
+    box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
+}
