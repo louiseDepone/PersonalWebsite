@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function Introduction() {
   return (
-      <div className='w-sreen flex flex-col  items-center pt-10 md:pt-[11rem]  '>
+      <div className='LOUISE w-sreen flex flex-col  items-center pt-10 md:pt-[11rem]  '>
       
         <div >
         <p className='text-3xl bg-red-6 text-center  md:text-6xl lop'>

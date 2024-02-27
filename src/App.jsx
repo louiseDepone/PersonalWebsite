@@ -26,7 +26,6 @@ export default function App() {
 
 </div> */}
       <Navigation/>
-      <p className='absolute -z-0 w-fit md:text-[18rem] text-[8rem] md:top-[3rem] top-[3rem] font-black opacity-5 text-center text-nowrap overflow-hidden text-black  ' > RYAN LOUISE</p>
       <Introduction/>
       <TechStack/>
       <Projects/>  

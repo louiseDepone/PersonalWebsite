@@ -67,3 +67,9 @@ input:focus-visible{
     background-position-x: -3rem, center,right;
     background-size: 40rem;
 }
+
+.LOUISE{
+    background-image: url("./assets/LETTERS/RYANEPIS.png");
+    background-repeat: no-repeat;
+    background-position-y:  center;
+}
