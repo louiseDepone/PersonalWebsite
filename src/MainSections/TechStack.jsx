@@ -14,12 +14,12 @@ export default function TechStack() {
         html,
         tailwind,
         react,
-        nodejs,
+        // nodejs,
         javascript,
-        mongodb,
+        // mongodb,
         laravel,
-        mysql,
-        css,
+        // mysql,
+        // css,
     ]
   return (
     <div className='w-screen  text-center pt-3 md:pt-19'>

@@ -3,7 +3,9 @@
 @tailwind utilities;
 *{
     font-family: Poppins;
-    color: #323235
+    color: black;
+    scroll-behavior: smooth;
+
 }
 .text-stroke {
     -webkit-text-stroke: 2px #323235;
@@ -28,7 +30,7 @@ body{
     box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
 }
 .pp{
-    background-color: white;
+    background-color: black;
     mix-blend-mode: difference;
     width: 200px;
     height: 200px;
@@ -36,7 +38,7 @@ body{
 .contactForm  > input{
     /* font-size:large; */
     height: 3rem;
-    border-bottom: #323235 solid 1px;
+    border-bottom: #ffffff31 solid 1px;
     margin-bottom: 1rem;
     padding-left: 2rem;
     background-color: transparent;
@@ -52,13 +54,16 @@ input:focus-visible{
 
 .form{
     background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(145,145,145,1) 0%, rgba(159,159,159,1) 0%, rgba(162,162,162,1) 0%, rgba(190,190,190,1) 15%, rgba(226,226,226,1) 42%, rgba(255,255,255,1) 64%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(145,145,145,1) 0%, rgba(159,159,159,1) 0%, rgba(162,162,162,1) 0%, rgba(190,190,190,1) 0%, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 87%);
 }
 
 #project{
-    background-image: url("./assets/LETTERS/PROJECTS.png"), url("./assets/LETTERS/PROJECTS.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position-y: 3rem, bottom;
-    background-position-x: -3rem, right;
-    background-size: 70rem;
+    background-image: url("./assets/LETTERS/PROJECTS.png")
+    ,  url("./assets/LETTERS/PROJECTS.png")
+    , url("./assets/LETTERS/PROJECTS.png")
+    ;
+    background-repeat: no-repeat;
+    background-position-y: 3rem, center ,bottom;
+    background-position-x: -3rem, center,right;
+    background-size: 40rem;
 }

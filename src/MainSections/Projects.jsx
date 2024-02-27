@@ -1,20 +1,21 @@
 import React from 'react'
 import studbud from '../assets/projects/studbud.png'
+import easesched from '../assets/projects/easesched.png'
 import ProjectCard from '../Components/ProjectCard'
 export default function Projects() {
     const project = [
-        {
-            title:"STUDBUD",
-            type:"Employee Scheduler with Backtracking algorithm",
-            image:studbud,
-            github:"#",
-            preview:"#",
-            description:"Explore a captivating collection of a talented designer's work, showcasing their skills and unique artistic vision. Immerse yourself in visually stunning designs, from sleek web creations to impactful branding projects."
-        },
+        // {
+        //     title:"STUDBUD",
+        //     type:"Employee Scheduler with Backtracking algorithm",
+        //     image:studbud,
+        //     github:"#",
+        //     preview:"#",
+        //     description:"Explore a captivating collection of a talented designer's work, showcasing their skills and unique artistic vision. Immerse yourself in visually stunning designs, from sleek web creations to impactful branding projects."
+        // },
         {
             title:"EASESCHED",
             type:"Employee Scheduler with Backtracking algorithm",
-            image:studbud,
+            image:easesched,
             github:"#",
             preview:"#",
             description:"Explore a captivating collection of a talented designer's work, showcasing their skills and unique artistic vision. Immerse yourself in visually stunning designs, from sleek web creations to impactful branding projects."
