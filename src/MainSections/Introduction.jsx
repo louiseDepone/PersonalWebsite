@@ -24,7 +24,8 @@ export default function Introduction() {
               wrapper="span"
               cursor={true}
               repeat={Infinity}
-              className='hidden text-stroke md:inline-block  text-[2em] text-white'
+              className='hidden text-stroke md:inline-block  text-[2em] '
+              style={{color:"transparent"}}
             />
             
             
