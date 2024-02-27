@@ -28,8 +28,10 @@ body{
     box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
 }
 .pp{
-    background-color:black;
+    background-color: white;
     mix-blend-mode: difference;
+    width: 200px;
+    height: 200px;
 }
 .contactForm  > input{
     /* font-size:large; */
@@ -51,4 +53,12 @@ input:focus-visible{
 .form{
     background: rgb(0,0,0);
 background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(145,145,145,1) 0%, rgba(159,159,159,1) 0%, rgba(162,162,162,1) 0%, rgba(190,190,190,1) 15%, rgba(226,226,226,1) 42%, rgba(255,255,255,1) 64%);
+}
+
+#project{
+    background-image: url("./assets/LETTERS/PROJECTS.png"), url("./assets/LETTERS/PROJECTS.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 3rem, bottom;
+    background-position-x: -3rem, right;
+    background-size: 70rem;
 }

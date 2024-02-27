@@ -18,9 +18,9 @@ export default function Navigation() {
             <div 
                 className={`md:flex md:flex-row  md:justify-center ${open ? 'flex h-screen' : 'hidden'} flex-col gap-10  items-center pt-10 md:p-0 font-medium`}>
                 <a href="#lol" className=' border-b-[2px] pb-3 px-1	 border-black border-solid'>HOME</a>
-                <a className='pb-3 px-1'>PROJECTS</a>
+                <a className='pb-3 px-1' href='#project'>PROJECTS</a>
                 <a className='pb-3 px-1'>ABOUT ME</a>
-                <a className='pb-3 px-1'>CONTACT </a>
+                <a className='pb-3 px-1' href='#contact'>CONTACT </a>
             </div>
     </div>
         </div>

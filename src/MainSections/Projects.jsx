@@ -21,11 +21,11 @@ export default function Projects() {
         }
     ]
   return (
-    <div className='w-screen'>
-        <p className=' absolute md:tracking-[-10px] w-fit md:text-[13rem] text-[6rem]  font-black opacity-15 text-center text-nowrap overflow-hidden '>
+    <div className='w-screen flex flex-col items-center back' id='project'>
+        {/* <p className=' absolute md:tracking-[-10px] w-fit md:text-[13rem] text-[6rem]  font-black opacity-15 text-center text-nowrap overflow-hidden '>
           PROJECTS
-          </p>
-          <div className='flex  flex-col items-center md:pt-32 pt-14 gap-10 md:gap-24'>
+          </p> */}
+          <div className='flex   flex-col items-center md:pt-32 pt-14 gap-10 md:gap-24'>
             {project.map((proj, index)=> <ProjectCard 
                                     title={proj.title} 
                                     type ={proj.type}
@@ -36,6 +36,8 @@ export default function Projects() {
                                     key ={ index}
                                     ll ={index} />)}
           </div>
+
+              <div className='font-semibold text-black text-sm p-8 pt-10'> SEE MORE PROJECT</div>
     </div>
   )
 }

@@ -12,13 +12,26 @@ export default function App() {
   })
   
   return (
-    <div className="w-screen relative "  >
+    <div className="w-page relative "  
+    // onMouseMove={(e) =>{
+    //   console.log(e)
+    //   setcursor({
+    //     top: e.pageY - 100,
+    //     left: e.pageX - 100
+    //   })
+    // }}
+    
+    >
+       {/* <div className="pp absolute" style={cursor}>
+
+</div> */}
       <Navigation/>
       <p className='absolute -z-0 w-fit md:text-[18rem] text-[8rem] md:top-[3rem] top-[3rem] font-black opacity-5 text-center text-nowrap overflow-hidden text-black  ' > RYAN LOUISE</p>
       <Introduction/>
       <TechStack/>
       <Projects/>  
       <Contact/>
+     
     </div>
   )
 }
