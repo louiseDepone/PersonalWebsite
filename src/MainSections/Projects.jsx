@@ -14,7 +14,7 @@ export default function Projects() {
         // },
         {
             title:"EASESCHED",
-            type:"Employee Scheduler with Backtracking algorithm",
+            type:"Employee Scheduler with Backtracking algorithm (ongoing)",
             image:easesched,
             github:"#",
             preview:"#",

@@ -72,4 +72,6 @@ input:focus-visible{
     background-image: url("./assets/LETTERS/RYANEPIS.png");
     background-repeat: no-repeat;
     background-position-y:  center;
+    background-position-x:  center;
+    background-size: 120%;
 }
