@@ -5,6 +5,7 @@ import TechStack from "./MainSections/TechStack";
 import { useEffect, useState } from "react";
 import Projects from "./MainSections/Projects";
 import Contact from "./Components/Contact";
+import Education from "./Components/Education";
 export default function App() {
   const [cursor, setcursor] = useState({top:0, left:0})
   useEffect(() => {
@@ -28,9 +29,9 @@ export default function App() {
       <Navigation/>
       <Introduction/>
       <TechStack/>
+     <Education/>
       <Projects/>  
       <Contact/>
-     
     </div>
   )
 }
