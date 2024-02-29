@@ -5,7 +5,7 @@
     font-family: Poppins;
     color: #323235;
     scroll-behavior: smooth;
-    transition: opacity 0.5s ease-in-out; 
+    transition: all 0.5s ease-in-out; 
 
 }
 .text-stroke {
@@ -100,7 +100,7 @@ input:focus-visible{
     
 }
 .aboutmecarc{
-    width: 90%;
+
     -webkit-box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
     -moz-box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
     box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);

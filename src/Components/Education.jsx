@@ -22,34 +22,40 @@ export default function Education() {
         })
       }
   return (
-    <div className='w-screen  my-20 ' > 
-
-        <div className={`pp absolute w-24 h-24 bg-red-500 rounded-md ` + s} 
+    <div>
+      
+      <div className={`pp absolute w-24 h-24 bg-red-500 rounded-md` + s} 
         style={{ ...cursor,
-        backgroundImage: `url(${c})`, backgroundSize: 'git' }}>
-          <div className='w-[100%] h-[100%] bg-black opacity-40'> d</div>
+        backgroundImage: `url(${c.img})`, backgroundSize: 'git' }}>
+          {/* <div className='w-[100%] h-[100%] bg-black rounded-md text-white'> d</div> */}
+          <div className='w-[100%] h-[100%] bg-black opacity-[70%] text-white absolute rounded-md  flex justify-center'></div>
+          <div className='absolute text-white  rounded-md w-[100%] h-[100%] flex flex-col justify-center items-center p-7'>
+            <div className='text-white font-bold'>{c.name}</div>
+            <div className='text-white font-normal text-xs'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta ex impedit illo dolorem laboriosam itaque tenetur libero hic tempore suscipit, animi ratione error voluptate tempora quaerat nemo maiores voluptas ipsam.</div>
+          </div>
         </div>
+    <div className='w-screen relative my-20 ' > 
+
+
+
+
         <div id='education' className='relative' onMouseMove={over} onMouseLeave={() => sc("hidden")}>
 
 
 
 
 
-            <p className={`${school == "elementary" ?" opacity-100 ": "opacity-40"  } hover:opacity-100 `} onClick={() => cleick("elementary")} onMouseEnter={() => setc(lncf)} >ELEMENTARY</p>
-            <p className={`${school == "juniorhs" ?" opacity-100 ": "opacity-40"  } hover:opacity-100 `} onClick={() => cleick("juniorhs")} onMouseEnter={() => setc(csr)}>  JUNIORHS</p>
-            <p className={`${school == "senior" ?" opacity-100 ": "opacity-40"  } hover:opacity-100 `} onClick={() => cleick("senior")}  onMouseEnter={() => setc(sti)}> SENIOR</p>
-            <p className={`${school == "college" ?" opacity-100 ": " opacity-40 "  } hover:opacity-100 `} onClick={() => cleick("college")}  onMouseEnter={() => setc(ncf)}>COLLEGE</p>
-        <div className='absolute right-20 bottom-0 w-[36rem]'>
-            Hello world
-            <p className={`${school == "elementary" ?" inline-block ": "hidden"  } `} onClick={() => cleick("elementary")}>ELEMENTARY</p>
-            <p className={`${school == "juniorhs" ?" inline-block ": "hidden"  } `} onClick={() => cleick("juniorhs")}>JUNIORHS</p>
-            <p className={`${school == "senior" ?" inline-block ": "hidden"  } `} onClick={() => cleick("senior")}> SENIOR</p>
-            <p className={`${school == "college" ?" inline-block ": " hidden "  } `} onClick={() => cleick("college")}>COLLEGE</p>
-        </div>
+            <p className={`${school == "elementary" ?" opacity-100 ": "opacity-40"  } hover:opacity-100 `} onClick={() => cleick("elementary")} onMouseEnter={() => setc({img: lncf,name:"Libmanan North Central School"})} >ELEMENTARY</p>
+            <p className={`${school == "juniorhs" ?" opacity-100 ": "opacity-40"  } hover:opacity-100 `} onClick={() => cleick("juniorhs")} onMouseEnter={() => setc({img:csr ,name:"Colegio Del Santisimo Rosario"})}>  JUNIORHS</p>
+            <p className={`${school == "senior" ?" opacity-100 ": "opacity-40"  } hover:opacity-100 `} onClick={() => cleick("senior")}  onMouseEnter={() => setc({img:sti,name:"STI College Naga"})}> SENIOR</p>
+            <p className={`${school == "college" ?" opacity-100 ": " opacity-40 "  } hover:opacity-100 `} onClick={() => cleick("college")}  onMouseEnter={() => setc({img:ncf,name:"Naga College Foundation Inc."})}>COLLEGE</p>
+   
         </div>
 
 
         
+    </div>
+    
     </div>
   )
 }
