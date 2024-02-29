@@ -22,7 +22,7 @@ export default function Education() {
         })
       }
   return (
-    <div className='w-screen  mt-20 ' > 
+    <div className='w-screen  my-20 ' > 
 
         <div className={`pp absolute w-24 h-24 bg-red-500 rounded-md ` + s} 
         style={{ ...cursor,

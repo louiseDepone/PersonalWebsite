@@ -22,7 +22,7 @@ export default function Projects() {
         }
     ]
   return (
-    <div className='w-screen flex flex-col items-center back' id='project'>
+    <div className='w-screen flex flex-col items-center ' id='project'>
         {/* <p className=' absolute md:tracking-[-10px] w-fit md:text-[13rem] text-[6rem]  font-black opacity-15 text-center text-nowrap overflow-hidden '>
           PROJECTS
           </p> */}
