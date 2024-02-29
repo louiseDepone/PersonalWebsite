@@ -92,3 +92,16 @@ input:focus-visible{
     cursor: pointer;
 }
 
+#aboutme{
+    background-image: url("./assets//LETTERS/aboutme.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /* background-size: contain; */
+    
+}
+.aboutmecarc{
+    width: 90%;
+    -webkit-box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
+    -moz-box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
+    box-shadow: 6px 9px 30px -1px rgba(0,0,0,0.38);
+}
