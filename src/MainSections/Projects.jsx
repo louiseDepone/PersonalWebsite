@@ -18,7 +18,7 @@ export default function Projects() {
             image:easesched,
             github:"#",
             preview:"#",
-            description:"Explore a captivating collection of a talented designer's work, showcasing their skills and unique artistic vision. Immerse yourself in visually stunning designs, from sleek web creations to impactful branding projects."
+            description:"\"Easesched\" is a team project currently underway for our \"Software Engineering\" course. It involves developing a web-based scheduling system utilizing the backtracking algorithm technique. The project is dedicated to assisting McDonald's shift managers in creating fair daily schedules for their employees.Explore a captivating collection of a talented designer's work, showcasing their skills and unique artistic vision. Immerse yourself in visually stunning designs, from sleek web creations to impactful branding projects."
         }
     ]
   return (

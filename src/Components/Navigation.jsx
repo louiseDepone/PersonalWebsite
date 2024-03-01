@@ -20,7 +20,7 @@ export default function Navigation() {
                 <a href="#lol" className=' border-b-[2px] pb-3 px-1	 border-black border-solid'>HOME</a>
                 <a className='pb-3 px-1' href='#project'>PROJECTS</a>
                 <a className='pb-3 px-1' href='#education'>EDUCATION</a>
-                <a className='pb-3 px-1'>ABOUT ME</a>
+                <a className='pb-3 px-1' href='#aboutme'>ABOUT ME</a>
                 <a className='pb-3 px-1' href='#contact'>CONTACT </a>
             </div>
     </div>
